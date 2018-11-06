@@ -11,7 +11,7 @@ RUN pip install fastai
 RUN pip install starlette uvicorn python-multipart aiohttp
 
 ADD hummingbird.py hummingbird.py
-ADD stage-2-34.pth stage-2-34.pth
+ADD stage-2-34_3.pth stage-2-34_3.pth
 
 # Run it once to trigger resnet download
 RUN python hummingbird.py
